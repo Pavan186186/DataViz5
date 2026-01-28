@@ -1,0 +1,888 @@
+{
+  "Overworld": [
+    {
+      "id": 1,
+      "name": "sniffer_egg",
+      "behavior": "Peaceful",
+      "danger_score": 0.0,
+      "stats": {
+        "health": 0.0,
+        "damage": 0.0
+      },
+      "image": "sniffer_egg.png"
+    },
+    {
+      "id": 2,
+      "name": "turtle_egg",
+      "behavior": "Peaceful",
+      "danger_score": 0.0,
+      "stats": {
+        "health": 0.0,
+        "damage": 0.0
+      },
+      "image": "turtle_egg.png"
+    },
+    {
+      "id": 3,
+      "name": "bat",
+      "behavior": "Peaceful",
+      "danger_score": 0.0,
+      "stats": {
+        "health": 6.0,
+        "damage": 0.0
+      },
+      "image": "bat.png"
+    },
+    {
+      "id": 5,
+      "name": "chicken",
+      "behavior": "Peaceful",
+      "danger_score": 0.0,
+      "stats": {
+        "health": 4.0,
+        "damage": 0.0
+      },
+      "image": "chicken.png"
+    },
+    {
+      "id": 12,
+      "name": "snow_golem",
+      "behavior": "Peaceful",
+      "danger_score": 0.0,
+      "stats": {
+        "health": 4.0,
+        "damage": 3.0
+      },
+      "image": "snow_golem.png"
+    },
+    {
+      "id": 13,
+      "name": "wandering_trader",
+      "behavior": "Peaceful",
+      "danger_score": 0.0,
+      "stats": {
+        "health": 20.0,
+        "damage": 0.0
+      },
+      "image": "wandering_trader.png"
+    },
+    {
+      "id": 15,
+      "name": "allay",
+      "behavior": "Peaceful",
+      "danger_score": 0.0,
+      "stats": {
+        "health": 20.0,
+        "damage": 0.0
+      },
+      "image": "allay.png"
+    },
+    {
+      "id": 16,
+      "name": "axolotl",
+      "behavior": "Peaceful",
+      "danger_score": 0.0,
+      "stats": {
+        "health": 14.0,
+        "damage": 2.0
+      },
+      "image": "axolotl.png"
+    },
+    {
+      "id": 19,
+      "name": "camel",
+      "behavior": "Peaceful",
+      "danger_score": 0.0,
+      "stats": {
+        "health": 32.0,
+        "damage": 0.0
+      },
+      "image": "camel.png"
+    },
+    {
+      "id": 20,
+      "name": "cat",
+      "behavior": "Peaceful",
+      "danger_score": 0.0,
+      "stats": {
+        "health": 10.0,
+        "damage": 3.0
+      },
+      "image": "cat.png"
+    },
+    {
+      "id": 21,
+      "name": "cow",
+      "behavior": "Peaceful",
+      "danger_score": 0.0,
+      "stats": {
+        "health": 10.0,
+        "damage": 0.0
+      },
+      "image": "cow.png"
+    },
+    {
+      "id": 22,
+      "name": "mooshroom",
+      "behavior": "Peaceful",
+      "danger_score": 0.0,
+      "stats": {
+        "health": 10.0,
+        "damage": 0.0
+      },
+      "image": "mooshroom.png"
+    },
+    {
+      "id": 26,
+      "name": "cod",
+      "behavior": "Peaceful",
+      "danger_score": 0.0,
+      "stats": {
+        "health": 3.0,
+        "damage": 0.0
+      },
+      "image": "cod.png"
+    },
+    {
+      "id": 27,
+      "name": "pufferfish",
+      "behavior": "Peaceful",
+      "danger_score": 0.0,
+      "stats": {
+        "health": 3.0,
+        "damage": 3.0
+      },
+      "image": "pufferfish.png"
+    },
+    {
+      "id": 28,
+      "name": "salmon",
+      "behavior": "Peaceful",
+      "danger_score": 0.0,
+      "stats": {
+        "health": 3.0,
+        "damage": 0.0
+      },
+      "image": "salmon.png"
+    },
+    {
+      "id": 29,
+      "name": "tropical fish",
+      "behavior": "Peaceful",
+      "danger_score": 0.0,
+      "stats": {
+        "health": 3.0,
+        "damage": 0.0
+      },
+      "image": "tropical_fish.png"
+    },
+    {
+      "id": 30,
+      "name": "fox",
+      "behavior": "Peaceful",
+      "danger_score": 0.0,
+      "stats": {
+        "health": 10.0,
+        "damage": 2.0
+      },
+      "image": "fox.png"
+    },
+    {
+      "id": 31,
+      "name": "frog",
+      "behavior": "Peaceful",
+      "danger_score": 0.0,
+      "stats": {
+        "health": 10.0,
+        "damage": 0.0
+      },
+      "image": "frog.png"
+    },
+    {
+      "id": 33,
+      "name": "goat",
+      "behavior": "Peaceful",
+      "danger_score": 0.0,
+      "stats": {
+        "health": 10.0,
+        "damage": 2.0
+      },
+      "image": "goat.png"
+    },
+    {
+      "id": 36,
+      "name": "donkey",
+      "behavior": "Peaceful",
+      "danger_score": 0.0,
+      "stats": {
+        "health": 15.0,
+        "damage": 0.0
+      },
+      "image": "donkey.png"
+    },
+    {
+      "id": 37,
+      "name": "horse",
+      "behavior": "Peaceful",
+      "danger_score": 0.0,
+      "stats": {
+        "health": 15.0,
+        "damage": 0.0
+      },
+      "image": "horse.png"
+    },
+    {
+      "id": 38,
+      "name": "mule",
+      "behavior": "Peaceful",
+      "danger_score": 0.0,
+      "stats": {
+        "health": 15.0,
+        "damage": 0.0
+      },
+      "image": "mule.png"
+    },
+    {
+      "id": 48,
+      "name": "parrot",
+      "behavior": "Peaceful",
+      "danger_score": 0.0,
+      "stats": {
+        "health": 6.0,
+        "damage": 0.0
+      },
+      "image": "parrot.png"
+    },
+    {
+      "id": 49,
+      "name": "pig",
+      "behavior": "Peaceful",
+      "danger_score": 0.0,
+      "stats": {
+        "health": 10.0,
+        "damage": 0.0
+      },
+      "image": "pig.png"
+    },
+    {
+      "id": 54,
+      "name": "rabbit",
+      "behavior": "Peaceful",
+      "danger_score": 0.0,
+      "stats": {
+        "health": 3.0,
+        "damage": 8.0
+      },
+      "image": "rabbit.png"
+    },
+    {
+      "id": 55,
+      "name": "sheep",
+      "behavior": "Peaceful",
+      "danger_score": 0.0,
+      "stats": {
+        "health": 8.0,
+        "damage": 0.0
+      },
+      "image": "sheep.png"
+    },
+    {
+      "id": 62,
+      "name": "sniffer",
+      "behavior": "Peaceful",
+      "danger_score": 0.0,
+      "stats": {
+        "health": 14.0,
+        "damage": 0.0
+      },
+      "image": "sniffer.png"
+    },
+    {
+      "id": 65,
+      "name": "glow_squid",
+      "behavior": "Peaceful",
+      "danger_score": 0.0,
+      "stats": {
+        "health": 10.0,
+        "damage": 0.0
+      },
+      "image": "glow_squid.png"
+    },
+    {
+      "id": 66,
+      "name": "squid",
+      "behavior": "Peaceful",
+      "danger_score": 0.0,
+      "stats": {
+        "health": 10.0,
+        "damage": 0.0
+      },
+      "image": "squid.png"
+    },
+    {
+      "id": 68,
+      "name": "tadpole",
+      "behavior": "Peaceful",
+      "danger_score": 0.0,
+      "stats": {
+        "health": 6.0,
+        "damage": 0.0
+      },
+      "image": "tadpole.png"
+    },
+    {
+      "id": 69,
+      "name": "big_sea_turtle",
+      "behavior": "Peaceful",
+      "danger_score": 0.0,
+      "stats": {
+        "health": 30.0,
+        "damage": 0.0
+      },
+      "image": "big_sea_turtle.png"
+    },
+    {
+      "id": 70,
+      "name": "villager",
+      "behavior": "Peaceful",
+      "danger_score": 0.0,
+      "stats": {
+        "health": 20.0,
+        "damage": 0.0
+      },
+      "image": "villager.png"
+    },
+    {
+      "id": 74,
+      "name": "wolf_tame",
+      "behavior": "Peaceful",
+      "danger_score": 0.0,
+      "stats": {
+        "health": 20.0,
+        "damage": 4.0
+      },
+      "image": "wolf_tame.png"
+    },
+    {
+      "id": 11,
+      "name": "silverfish",
+      "behavior": "Hostile",
+      "danger_score": 1.9,
+      "stats": {
+        "health": 8.0,
+        "damage": 1.0
+      },
+      "image": "silverfish.png"
+    },
+    {
+      "id": 18,
+      "name": "bee",
+      "behavior": "Conditional",
+      "danger_score": 2.2,
+      "stats": {
+        "health": 10.0,
+        "damage": 2.0
+      },
+      "image": "bee.png"
+    },
+    {
+      "id": 7,
+      "name": "endermite",
+      "behavior": "Hostile",
+      "danger_score": 2.4,
+      "stats": {
+        "health": 8.0,
+        "damage": 2.0
+      },
+      "image": "endermite.png"
+    },
+    {
+      "id": 46,
+      "name": "llama",
+      "behavior": "Conditional",
+      "danger_score": 2.4,
+      "stats": {
+        "health": 15.0,
+        "damage": 1.0
+      },
+      "image": "llama.png"
+    },
+    {
+      "id": 6,
+      "name": "dolphin",
+      "behavior": "Conditional",
+      "danger_score": 2.6,
+      "stats": {
+        "health": 10.0,
+        "damage": 3.0
+      },
+      "image": "dolphin.png"
+    },
+    {
+      "id": 73,
+      "name": "wolf",
+      "behavior": "Conditional",
+      "danger_score": 2.7,
+      "stats": {
+        "health": 8.0,
+        "damage": 4.0
+      },
+      "image": "wolf.png"
+    },
+    {
+      "id": 64,
+      "name": "spider",
+      "behavior": "Conditional",
+      "danger_score": 3.0,
+      "stats": {
+        "health": 16.0,
+        "damage": 2.0
+      },
+      "image": "spider.png"
+    },
+    {
+      "id": 63,
+      "name": "cave_spider",
+      "behavior": "Hostile",
+      "danger_score": 3.1,
+      "stats": {
+        "health": 12.0,
+        "damage": 2.0
+      },
+      "image": "cave_spider.png"
+    },
+    {
+      "id": 10,
+      "name": "phantom",
+      "behavior": "Hostile",
+      "danger_score": 4.4,
+      "stats": {
+        "health": 20.0,
+        "damage": 2.0
+      },
+      "image": "phantom.png"
+    },
+    {
+      "id": 53,
+      "name": "killer rabbit",
+      "behavior": "Hostile",
+      "danger_score": 4.6,
+      "stats": {
+        "health": 3.0,
+        "damage": 8.0
+      },
+      "image": "killer_rabbit.png"
+    },
+    {
+      "id": 61,
+      "name": "slime",
+      "behavior": "Hostile",
+      "danger_score": 4.7,
+      "stats": {
+        "health": 16.0,
+        "damage": 4.0
+      },
+      "image": "slime.png"
+    },
+    {
+      "id": 76,
+      "name": "husk",
+      "behavior": "Hostile",
+      "danger_score": 4.9,
+      "stats": {
+        "health": 20.0,
+        "damage": 3.0
+      },
+      "image": "husk.png"
+    },
+    {
+      "id": 77,
+      "name": "zombie",
+      "behavior": "Hostile",
+      "danger_score": 4.9,
+      "stats": {
+        "health": 20.0,
+        "damage": 3.0
+      },
+      "image": "zombie.png"
+    },
+    {
+      "id": 78,
+      "name": "zombie_villager",
+      "behavior": "Hostile",
+      "danger_score": 4.9,
+      "stats": {
+        "health": 20.0,
+        "damage": 3.0
+      },
+      "image": "zombie_villager.png"
+    },
+    {
+      "id": 47,
+      "name": "panda",
+      "behavior": "Conditional",
+      "danger_score": 5.2,
+      "stats": {
+        "health": 20.0,
+        "damage": 6.0
+      },
+      "image": "panda.png"
+    },
+    {
+      "id": 57,
+      "name": "skeleton",
+      "behavior": "Hostile",
+      "danger_score": 5.4,
+      "stats": {
+        "health": 20.0,
+        "damage": 4.0
+      },
+      "image": "skeleton.png"
+    },
+    {
+      "id": 58,
+      "name": "stray",
+      "behavior": "Hostile",
+      "danger_score": 5.9,
+      "stats": {
+        "health": 20.0,
+        "damage": 5.0
+      },
+      "image": "stray.png"
+    },
+    {
+      "id": 41,
+      "name": "pillager",
+      "behavior": "Hostile",
+      "danger_score": 6.1,
+      "stats": {
+        "health": 24.0,
+        "damage": 4.0
+      },
+      "image": "pillager.png"
+    },
+    {
+      "id": 17,
+      "name": "polarbear",
+      "behavior": "Conditional",
+      "danger_score": 6.5,
+      "stats": {
+        "health": 30.0,
+        "damage": 6.0
+      },
+      "image": "polar_bear.png"
+    },
+    {
+      "id": 43,
+      "name": "vex",
+      "behavior": "Hostile",
+      "danger_score": 6.9,
+      "stats": {
+        "health": 14.0,
+        "damage": 9.0
+      },
+      "image": "vex.png"
+    },
+    {
+      "id": 14,
+      "name": "witch",
+      "behavior": "Hostile",
+      "danger_score": 7.5,
+      "stats": {
+        "health": 26.0,
+        "damage": 6.0
+      },
+      "image": "witch.png"
+    },
+    {
+      "id": 40,
+      "name": "illusioner",
+      "behavior": "Hostile",
+      "danger_score": 8.0,
+      "stats": {
+        "health": 32.0,
+        "damage": 5.0
+      },
+      "image": "illusioner.png"
+    },
+    {
+      "id": 8,
+      "name": "guardian",
+      "behavior": "Hostile",
+      "danger_score": 8.1,
+      "stats": {
+        "health": 30.0,
+        "damage": 6.0
+      },
+      "image": "guardian.png"
+    },
+    {
+      "id": 25,
+      "name": "enderman",
+      "behavior": "Conditional",
+      "danger_score": 8.3,
+      "stats": {
+        "health": 40.0,
+        "damage": 7.0
+      },
+      "image": "enderman.png"
+    },
+    {
+      "id": 39,
+      "name": "evoker",
+      "behavior": "Hostile",
+      "danger_score": 8.6,
+      "stats": {
+        "health": 24.0,
+        "damage": 9.0
+      },
+      "image": "evoker.png"
+    },
+    {
+      "id": 75,
+      "name": "drowned",
+      "behavior": "Hostile",
+      "danger_score": 9.0,
+      "stats": {
+        "health": 20.0,
+        "damage": 11.0
+      },
+      "image": "drowned.png"
+    },
+    {
+      "id": 44,
+      "name": "vindicator",
+      "behavior": "Hostile",
+      "danger_score": 10.7,
+      "stats": {
+        "health": 24.0,
+        "damage": 13.0
+      },
+      "image": "vindicator.png"
+    },
+    {
+      "id": 35,
+      "name": "zoglin",
+      "behavior": "Hostile",
+      "danger_score": 10.8,
+      "stats": {
+        "health": 40.0,
+        "damage": 8.0
+      },
+      "image": "zoglin.png"
+    },
+    {
+      "id": 9,
+      "name": "guardian_elder",
+      "behavior": "Hostile",
+      "danger_score": 17.6,
+      "stats": {
+        "health": 80.0,
+        "damage": 8.0
+      },
+      "image": "guardian_elder.gif"
+    },
+    {
+      "id": 45,
+      "name": "iron_golem",
+      "behavior": "Conditional",
+      "danger_score": 22.5,
+      "stats": {
+        "health": 100.0,
+        "damage": 22.0
+      },
+      "image": "iron_golem.png"
+    },
+    {
+      "id": 42,
+      "name": "ravager",
+      "behavior": "Hostile",
+      "danger_score": 23.1,
+      "stats": {
+        "health": 100.0,
+        "damage": 12.0
+      },
+      "image": "ravager.png"
+    },
+    {
+      "id": 23,
+      "name": "creeper",
+      "behavior": "Hostile",
+      "danger_score": 25.3,
+      "stats": {
+        "health": 20.0,
+        "damage": 43.0
+      },
+      "image": "creeper.png"
+    },
+    {
+      "id": 71,
+      "name": "warden",
+      "behavior": "Hostile",
+      "danger_score": 100.0,
+      "stats": {
+        "health": 500.0,
+        "damage": 30.0
+      },
+      "image": "warden.png"
+    }
+  ],
+  "Nether": [
+    {
+      "id": 67,
+      "name": "strider",
+      "behavior": "Peaceful",
+      "danger_score": 0.0,
+      "stats": {
+        "health": 20.0,
+        "damage": 0.0
+      },
+      "image": "strider.png"
+    },
+    {
+      "id": 50,
+      "name": "piglin",
+      "behavior": "Conditional",
+      "danger_score": 5.4,
+      "stats": {
+        "health": 16.0,
+        "damage": 8.0
+      },
+      "image": "piglin.png"
+    },
+    {
+      "id": 60,
+      "name": "magmacube",
+      "behavior": "Hostile",
+      "danger_score": 5.8,
+      "stats": {
+        "health": 16.0,
+        "damage": 6.0
+      },
+      "image": "magma_cube.png"
+    },
+    {
+      "id": 52,
+      "name": "zombified_piglin",
+      "behavior": "Conditional",
+      "danger_score": 6.0,
+      "stats": {
+        "health": 20.0,
+        "damage": 8.0
+      },
+      "image": "zombified_piglin.png"
+    },
+    {
+      "id": 4,
+      "name": "blaze",
+      "behavior": "Hostile",
+      "danger_score": 6.4,
+      "stats": {
+        "health": 20.0,
+        "damage": 6.0
+      },
+      "image": "blaze.png"
+    },
+    {
+      "id": 59,
+      "name": "wither_skeleton",
+      "behavior": "Hostile",
+      "danger_score": 7.5,
+      "stats": {
+        "health": 20.0,
+        "damage": 8.0
+      },
+      "image": "wither_skeleton.png"
+    },
+    {
+      "id": 25,
+      "name": "enderman",
+      "behavior": "Conditional",
+      "danger_score": 8.3,
+      "stats": {
+        "health": 40.0,
+        "damage": 7.0
+      },
+      "image": "enderman.png"
+    },
+    {
+      "id": 32,
+      "name": "ghast",
+      "behavior": "Hostile",
+      "danger_score": 10.3,
+      "stats": {
+        "health": 10.0,
+        "damage": 17.0
+      },
+      "image": "ghast.png"
+    },
+    {
+      "id": 34,
+      "name": "hoglin",
+      "behavior": "Hostile",
+      "danger_score": 10.8,
+      "stats": {
+        "health": 40.0,
+        "damage": 8.0
+      },
+      "image": "hoglin.png"
+    },
+    {
+      "id": 51,
+      "name": "piglin_brute",
+      "behavior": "Hostile",
+      "danger_score": 15.1,
+      "stats": {
+        "health": 50.0,
+        "damage": 13.0
+      },
+      "image": "piglin_brute.png"
+    },
+    {
+      "id": 72,
+      "name": "wither",
+      "behavior": "Hostile",
+      "danger_score": 85.4,
+      "stats": {
+        "health": 300.0,
+        "damage": 68.0
+      },
+      "image": "wither.png"
+    }
+  ],
+  "End": [
+    {
+      "id": 56,
+      "name": "shulker",
+      "behavior": "Hostile",
+      "danger_score": 7.1,
+      "stats": {
+        "health": 30.0,
+        "damage": 4.0
+      },
+      "image": "shulker.png"
+    },
+    {
+      "id": 25,
+      "name": "enderman",
+      "behavior": "Conditional",
+      "danger_score": 8.3,
+      "stats": {
+        "health": 40.0,
+        "damage": 7.0
+      },
+      "image": "enderman.png"
+    },
+    {
+      "id": 24,
+      "name": "dragon",
+      "behavior": "Hostile",
+      "danger_score": 39.0,
+      "stats": {
+        "health": 200.0,
+        "damage": 10.0
+      },
+      "image": "ender_dragon.gif"
+    }
+  ]
+}

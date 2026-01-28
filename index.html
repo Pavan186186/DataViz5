@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft: The Hierarchy of Danger</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>THE HIERARCHY OF DANGER</h1>
+        <h3>PAVAN TEJA TALLAPALLI | EMAIL:ptallap2@asu.edu</h3>
+        <div class="desc">
+            <p>
+                This interactive topography visualizes the Minecraft ecosystem across three dimensions.
+                <strong>Marks:</strong> Isometric sprites representing individual mobs and an area chart representing the terrain.
+                <strong>Channels:</strong> Vertical Position (Y) and Terrain Height represent the calculated
+                <em>Danger Score</em> (Health + Damage * 3) and the danger score is only calculated for hostile and provocable mobs.Horizontal Position (X) groups mobs by score.
+                <strong>Interaction:</strong> Scrolling right reveals increasingly dangerous creatures; hovering reveals detailed stats.
+            </p>
+        </div>
+        <div class="meta-info">
+            <h3>Custom Visualization Category: Combinatorial / Novel</h3>
+            <p>
+                This exhibit is considered <strong>Novel</strong> because i tried to creates a custom "landscape" metaphor 
+                where the data (Danger Score) directly generates the terrain geometry using a procedural area generator, 
+                i also tried to make the terrain animation as close to the in game dimentions and also tried to make the colors match that of the game's 
+                rather than using a standard chart type. It is also <strong>Combinatorial</strong> as it integrates 
+                isometric pixel art assets directly into the D3 coordinate system, combining a statistical scatterplot 
+                layout with a scenic illustration.
+            </p>
+            <p style="font-size: 0.9em; margin-top: 10px; color: #777;">
+                <strong>Attributes Visualized:</strong> Dimension, Danger Score, Health, Damage, Behavior Type.
+            </p>
+        </div>
+    </header>
+    <div id="tooltip"></div>
+    <div class="world-container" id="overworld-world" style="background: linear-gradient(to bottom, #87CEEB 0%, #E0F7FA 50%, #68c256 50%);">
+        <div class="world-label" style="color: #248524;">OVERWORLD</div>
+        <div class="scroll-wrapper" id="viz-overworld"></div>
+    </div>
+    <div class="world-container" id="nether-world" style="background: linear-gradient(to bottom, #2A0000, #4A0000);">
+        <div class="world-label" style="color: #FF5555;">THE NETHER</div>
+        <div class="scroll-wrapper" id="viz-nether"></div>
+    </div>
+    <div class="world-container" id="end-world" style="background: linear-gradient(to bottom, #120818, #261830);">
+        <div class="world-label" style="color: #D38CFF;">THE END</div>
+        <div class="scroll-wrapper" id="viz-end"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
